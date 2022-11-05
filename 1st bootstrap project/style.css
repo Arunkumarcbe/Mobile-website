@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Bebas Neue',cursive;}
+.navbar img{
+    height:68px;
+    width:auto;
+  }
+li{
+  padding:10px;
+}
+.nav-link{
+  font-size:17px;
+  font-weight:bold;
+}
+.nav-link:hover{
+  transform:translateY(5px);
+  transition:0.5s;
+}
+#navbar{
+  box-shadow:0px 0.5px 10px;
+  position:sticky;
+  top:0px;
+  z-index:3;
+}
+section{
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-lg-6 img {
+  margin-top:-200px !important;
+}
+.col-lg-6 p
+{
+  font-size:25px;
+  color:rgba(71, 71, 71, 0.877);
+  padding-bottom:10px;
+  padding-left:15px;
+}
+.col-lg-6 span
+{
+  color:red;
+}
+.col-lg-6 img:hover{
+  transform:translatex(20px);
+  transition:0.5s;
+}
+.fas{
+  color:black;
+}
+#section2{
+  position:relative;
+  left:50px;
+}
+.card{
+  box-shadow:1px 1px 8px,1px 1px 0px;
+  padding:10px;
+  margin: 0 auto;
+  float: none; 
+  margin-bottom: 20px; 
+}
+.col-md-4
+{
+  padding-bottom:20px;
+}
+form{
+  padding:98px;
+  box-shadow:2px 2px 12px rgb(2, 2, 20.06),
+  0px 0px 1px rgb(2, 2, 20.05);
+  border-radius:20px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:80px;
+}
+@media(max-width:600px) {
+  .navbar img{
+    height:48px;
+    width:auto;
+  }
+
+  
+}
